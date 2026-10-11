@@ -508,6 +508,8 @@ private fun ProvidersSection(
                             append(". CreditWatch needs a read-only adapter for ")
                             append(entry.name)
                             append(" before it can report its credit.")
+                            append(" If you would like to see this provider supported, please request it on GitHub.")
+                            append(" CreditWatch is an open-source project and welcomes contributions.")
                         })
                     }
                 }
